@@ -12,17 +12,29 @@ Group Members:
 8.	20/03039 Joshua Mulei
 9.	20/02796 Lucy Kuria
 10.	20/03048 Stephanie Kerubo
+    
 Unit Code: BSD 3205
+
 Unit: Embedded Systems
 ________________________________________
 Objective:
 Design and implement an Intruder Alarm Project utilizing embedded systems and Ultrasonic sensors to enhance security by detecting and alerting against unauthorized access.
+
+
+
 Background: 
 Protecting personal belongings from intruders poses a challenge as traditional security measures may fall short in providing effective solutions. These traditional security measures, such as locks and keys, are susceptible to various vulnerabilities, and surveillance systems can be costly and complex to install. They also often lack real-time intrusion detection capabilities, leading to delayed responses and increased security risks. 
 Therefore, this Intruder Alarm Project addresses this gap by employing Ultrasonic sensors to detect objects in proximity and trigger an alarm, providing an effective solution for safeguarding valuables.
+
+
+
 Project Description: 
 The Intruder Alarm Project relies on an Arduino Uno board and Ultrasonic sensor. When an object approaches the sensor, the circuit activates a buzzer, emitting a sound. The distance sensitivity of the sensor can be easily adjusted through programming, offering customization based on specific needs.
 The Intruder Alarm System offers home security, office protection, and its ability to serves as a cost-effective deterrent against unauthorized access.
+
+
+
+
 Components Required:
 •	Ultrasonic Sensor: Detects objects by emitting ultrasonic waves and measuring the time it takes for the waves to bounce back. This data is used to determine the distance of the object from the sensor.
 •	LEDs (x2): Visual indicators that provide information about the system's status. For instance, one LED may indicate power, while the other may indicate the activation of the alarm.
@@ -39,9 +51,6 @@ Design Phase:
 
 
 
-
-
-
 Cost analysis
 Component Name	No. of components	Price per Component	Total
 Ultrasonic sensor	1	Ksh.200	Ksh.200
@@ -52,6 +61,8 @@ Jumper Wires	1	Ksh.150	Ksh.150
 LEDs	1	Ksh.5	Ksh.10
 Resistors (220 ohms) 	2	Ksh.5	Ksh.10
 TOTAL = KSH.2100
+
+
 
 •	Design system architecture and data flow diagram.
 •	Develop the schematic diagram for circuit connections.
@@ -73,8 +84,13 @@ Challenges and Considerations:
 o	Ensuring the system's reliability in different environmental conditions.
 o	Balancing the cost of components with the required functionality.
 o	Developing a user-friendly interface for easy customization.
+
+
 Conclusion: 
 The Intruder Alarm Project presents an accessible and effective solution for strengthening security using embedded systems and Ultrasonic sensors. This project not only addresses the challenge of unauthorized access but also opens avenues for future innovations in security technology.
+
+
+
 References:
 Hossain, R., Biswas, H., Banna, M. H. A., & Degadwala, S. (2020). Design and Implementation of Smart Security System for Farm Protection from Intruders. International Journal of Scientific Research in Computer Science, Engineering and Information Technology, 250–263. https://doi.org/10.32628/cseit1206540
 
